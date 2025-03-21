@@ -81,18 +81,36 @@ body{
 
 .photo-grid {
     width: 100%;
-    max-width: 1000x; 
-    height: auto;
-    border-radius: 42px;
+    max-width: 1200px; 
     margin: 40px auto;
     padding: 20px;
-    background-color:#ffcd9f ; 
+    background-color:#ffcd9f; 
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
 }
 
+.photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    display: block;
+}
+
+
+
+.photo-container {
+    width: 100%;
+    height: auto;
+
+    border: 2px #ffcd9f;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 8px rgba(255, 210, 210, 0.1); 
+}
 
